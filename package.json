@@ -7,7 +7,7 @@
     "client": "npm run start --prefix client",
     "server": "nodemon index.js",
     "dev": "concurrently \"npm run client\" \"npm run server\"",
-    "prod": "cross-env-shell NODE_ENV=production \"node index\"",
+    "start": "cross-env-shell NODE_ENV=production \"node index\"",
     "build": "npm run build --prefix client"
   },
   "keywords": [],
